@@ -79,7 +79,7 @@ speak("Kennan");
 //console.log(antonietta.multiplyNums(3,4));
 let Antonietta = {
 	multiplyNums: function(num1, num2) {
-		const intern5 = num1 * num2;
+		return num1 * num2;
 	}
 };
 console.log(Antonietta.multiplyNums(3, 4));
